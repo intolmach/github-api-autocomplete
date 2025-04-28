@@ -21,7 +21,7 @@ body {
 }
 
 .item_search {
-    min-width: 300px;
+    width: 500px;
     height: 30x;
     font-size: 2rem;
     border: 2px solid black;
