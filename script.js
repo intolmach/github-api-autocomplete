@@ -15,7 +15,7 @@ let debounce = function (fn, ms) {
 
 inputBox.addEventListener("input", debounce((function (e) {
     setItems(e.target.value)
-}), 500));
+}), 400));
 
 function createList(elem) {
     let newItem = document.createElement("li")
